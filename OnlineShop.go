@@ -1,5 +1,6 @@
 package main
 
+// Import Fungsi Yang akan Digunakan
 import (
 	"fmt"
 	"os"
@@ -295,7 +296,7 @@ func cetakTransaksi() {
 // Fungsi untuk melihat daftar barang yang diurutkan berdasarkan stok
 func lihatBarang() {
 	fmt.Println("Daftar Barang")
-	
+
 	// Lakukan pengurutan barang berdasarkan stok (bubble sort)
 	for i := 0; i < barangCount-1; i++ {
 		for j := 0; j < barangCount-i-1; j++ {
